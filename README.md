@@ -26,6 +26,7 @@ SOMs supported
 - imx8mp-icore-2e
 - imx8mp-icore-fasteth
 - imx8mp-smarcore
+- imx8qxp-icore
 - imx8ulp-microgea
 - imx8xq-smarcore
 - imx93-icore
