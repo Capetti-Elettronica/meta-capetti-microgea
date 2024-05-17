@@ -12,6 +12,7 @@ IMAGE_FEATURES += " \
 	debug-tweaks \
 	ssh-server-dropbear \
 	hwcodecs \
+	tools-debug \
 	"
 
 PKG_DEBUG = "\
