@@ -2,7 +2,7 @@
 # Copyright 2017-2019 NXP
 # Released under the MIT license (see COPYING.MIT for the terms)
 
-DESCRIPTION = "Engicam evaluation image"
+DESCRIPTION = "Capetti Gateway Debug Image"
 LICENSE = "MIT"
 
 inherit core-image
@@ -12,11 +12,10 @@ IMAGE_FEATURES += " \
 	debug-tweaks \
 	ssh-server-dropbear \
 	hwcodecs \
+	tools-debug \
 	"
 
 PKG_DEBUG = "\
-	cantest \
-	canutils \
 	devmem2 \
 	dosfstools \
 	e2fsprogs \
@@ -44,5 +43,8 @@ IMAGE_INSTALL += " \
 	brcm-patchram-plus \
 	packagegroup-core-full-cmdline \
 	packagegroup-tools-bluetooth \
+	sqlite3 \
+	mosquitto \
+	mosquitto-clients \
 	${PKG_DEBUG} \
 "
