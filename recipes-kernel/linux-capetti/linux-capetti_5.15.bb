@@ -15,10 +15,10 @@ LICENSE = "GPLv2"
 LIC_FILES_CHKSUM = "file://COPYING;md5=6bc538ed5bd9a7fc9398086aedcd7e46"
 
 DEPENDS += "lzop-native bc-native"
-KERNEL_SRC ?= "git://github.com/Capetti-Elettronica/linux-ecapetti-nxp.git;protocol=http"
+KERNEL_SRC ?= "git://github.com/Capetti-Elettronica/linux-capetti-nxp.git;protocol=http"
 SRCBRANCH = "5.15.71"
 SRC_URI = "${KERNEL_SRC};branch=${SRCBRANCH}"
-SRCREV = "602228c18f8ff9fd4dd4e974149b53bcccca5c14"
+SRCREV = "a14f9c1e2a80457413114e22f0d8575c54d60c6c"
 
 # PV is defined in the base in linux-imx.inc file and uses the LINUX_VERSION definition
 # required by kernel-yocto.bbclass.
