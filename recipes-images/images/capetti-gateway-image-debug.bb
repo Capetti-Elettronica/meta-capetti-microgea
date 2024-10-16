@@ -46,5 +46,6 @@ IMAGE_INSTALL += " \
 	sqlite3 \
 	mosquitto \
 	mosquitto-clients \
+	ppp \
 	${PKG_DEBUG} \
 "
