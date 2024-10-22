@@ -47,5 +47,7 @@ IMAGE_INSTALL += " \
 	mosquitto \
 	mosquitto-clients \
 	ppp \
+	hostapd \
+	dnsmasq \
 	${PKG_DEBUG} \
 "
